@@ -1,0 +1,231 @@
+    <!DOCTYPE html>
+    <html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>المنصة التعليمية - جامعة الازهر غزة</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- Google Fonts for Arabic -->
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo" onclick="navigateTo('courses')">
+                        <div class="logo-icon">🎓</div>
+                        <div class="logo-text">
+                            <h1>المنصة التعليمية</h1>
+                            <span>لطلاب الهندسة و تكنولوجيا المعلومات</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Search Bar -->
+                    <div class="search-container">
+                        <input type="text" id="search-input" class="search-input" placeholder="🔍 بحث في المقررات...">
+                    </div>
+                    
+                    <nav class="nav">
+                        <a href="#courses" class="nav-link active" data-page="courses">الرئيسية</a>
+                        <a href="#about" class="nav-link" data-page="about">عن المنصة</a>
+                        <button id="auth-btn" class="btn btn-auth">تسجيل الدخول</button>
+                        <div id="user-menu" class="user-menu" style="display: none;">
+                            <span id="user-name"></span>
+                            <button id="logout-btn" class="btn btn-logout">تسجيل خروج</button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <!-- Courses Page -->
+                <section id="courses-page" class="page active">
+                    <div class="page-header">
+                        <h2>الكورسات المتاحة</h2>
+                        <p>اختر المستوى والفصل الدراسي للمقررات المطلوبة</p>
+                    </div>
+                    
+                    <!-- Filters -->
+                    <div class="filters">
+                        <div class="filter-group">
+                            <label>المستوى الدراسي</label>
+                            <select id="level-filter" class="filter-select">
+                                <option value="all">جميع المستويات</option>
+                                <option value="1">المستوى الأول</option>
+                                <option value="2">المستوى الثاني</option>
+                                <option value="3">المستوى الثالث</option>
+                                <option value="4">المستوى الرابع</option>
+                                <option value="5">المستوى الخامس</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label>الفصل الدراسي</label>
+                            <select id="semester-filter" class="filter-select">
+                                <option value="all">جميع الفصول</option>
+                                <option value="first">الفصل الدراسي الأول</option>
+                                <option value="second">الفصل الدراسي الثاني</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label>كلية الهندسة</label>
+                            <select id="faculty-filter" class="filter-select">
+                                <option value="all">هندسة أنظمة الحاسوب</option>
+                                <option value="engineering">علوم الحاسوب</option>
+                            </select>
+                        </div>
+                        <button id="reset-filters" class="btn btn-secondary">إعادة تعيين</button>
+                    </div>
+
+                    <!-- Courses Grid -->
+                    <div id="courses-grid" class="courses-grid">
+                        <!-- Courses will be loaded here dynamically -->
+                    </div>
+                </section>
+
+                <!-- Course Details Page -->
+                <section id="course-details-page" class="page">
+                    <button class="btn btn-back" onclick="navigateTo('courses')">← العودة للكورسات</button>
+                    <div id="course-details" class="course-details">
+                        <!-- Course details will be loaded here dynamically -->
+                    </div>
+                </section>
+
+                <!-- Lesson Page -->
+                <section id="lesson-page" class="page">
+                    <button class="btn btn-back" onclick="goBack()">← العودة للمقرر</button>
+                    <div id="lesson-content" class="lesson-content">
+                        <!-- Lesson content will be loaded here dynamically -->
+                    </div>
+                </section>
+
+            <!-- About Page -->
+                <section id="about-page" class="page">
+                    <div class="about-content">
+                        <h2>عن المنصة التعليمية</h2>
+                        <p>المنصة التعليمية هي مشروع أكاديمي يهدف إلى تنظيم المحتوى التعليمي لطلاب الهندسة وتقنية المعلومات.</p>
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <div class="feature-icon">📚</div>
+                                <h3>مقررات متنوعة</h3>
+                                <p>تشمل مقررات الهندسة المختلفة والعلوم الحاسوب المعلومات</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">🎯</div>
+                                <h3>تعلم منظم</h3>
+                                <p>مقررات مرتبة حسب المستوى والفصل الدراسي</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">💾</div>
+                                <h3>تتبع التقدم</h3>
+                                <p>حفظ تقدمك ومتابعة الدروس المكتملة</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">📱</div>
+                                <h3>تصميم متجاوب</h3>
+                                <p>يمكن الوصول للمنصة من أي جهاز</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">🔍</div>
+                                <h3>بحث متقدم</h3>
+                                <p>ابحث في المقررات بسهولة</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">⭐</div>
+                                <h3>تقييم المقررات</h3>
+                                <p>قيّم المقررات وحصل على توصيات</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">👤</div>
+                                <h3>حساب شخصي</h3>
+                                <p>سجل دخولك لحفظ تقدمك</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>جميع الحقوق محفوظة © 2024 - المنصة التعليمية</p>
+                <p>صمم لطلاب الهندسة و علوم الحاسوب المعلومات</p>
+            </div>
+        </footer>
+
+        <!-- Login Modal -->
+        <div id="login-modal" class="modal">
+            <div class="modal-content">
+                <span class="modal-close" onclick="closeLoginModal()">&times;</span>
+                <h2>تسجيل الدخول</h2>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label>اسم المستخدم</label>
+                        <input type="text" id="login-username" required>
+                    </div>
+                    <div class="form-group">
+                        <label>كلمة المرور</label>
+                        <input type="password" id="login-password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">دخول</button>
+                </form>
+                <p class="modal-footer-text">
+                    ليس لديك حساب؟ <a href="#" onclick="switchToRegister()">سجل هنا</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Register Modal -->
+        <div id="register-modal" class="modal">
+            <div class="modal-content">
+                <span class="modal-close" onclick="closeRegisterModal()">&times;</span>
+                <h2>إنشاء حساب جديد</h2>
+                <form id="register-form">
+                    <div class="form-group">
+                        <label>اسم المستخدم</label>
+                        <input type="text" id="register-username" required>
+                    </div>
+                    <div class="form-group">
+                        <label>البريد الإلكتروني</label>
+                        <input type="email" id="register-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>كلمة المرور</label>
+                        <input type="password" id="register-password" required>
+                    </div>
+                    <div class="form-group">
+                        <label>تأكيد كلمة المرور</label>
+                        <input type="password" id="register-confirm-password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">تسجيل</button>
+                </form>
+                <p class="modal-footer-text">
+                    لديك حساب بالفعل؟ <a href="#" onclick="switchToLogin()">سجل دخول هنا</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Rating Modal -->
+        <div id="rating-modal" class="modal">
+            <div class="modal-content">
+                <span class="modal-close" onclick="closeRatingModal()">&times;</span>
+                <h2>تقييم المقرر</h2>
+                <div class="rating-stars-interactive">
+                    <span class="star" data-rating="1">★</span>
+                    <span class="star" data-rating="2">★</span>
+                    <span class="star" data-rating="3">★</span>
+                    <span class="star" data-rating="4">★</span>
+                    <span class="star" data-rating="5">★</span>
+                </div>
+                <p id="rating-text">اختر التقييم</p>
+                <button id="submit-rating" class="btn btn-primary">إرسال التقييم</button>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+    </html>

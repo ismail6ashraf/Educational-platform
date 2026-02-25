@@ -1,0 +1,398 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "تفاضل وتكامل 1",
+      "nameEn": "Engineering Mathematics",
+      "faculty": "it",
+      "level": 1,
+      "semester": "first",
+      "description": "مقرر الرياضيات الهندسية يغطي التفاضل والتكامل المتقدم والجبر الخطي والمعادلات التفاضلية. هذا المقرر أساسي لطلاب الهندسة في جميع التخصصات.",
+      "rating": 4.5,
+      "ratingsCount": 120,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي ليست تفاضل وتكامل 1",
+          "description": "في هذه الدرس نتناول مفاهيم التفاضل المتقدم بما في ذلك المشتقات الجزئية والتطبيقات الهندسية.",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PL9fwy3NUQKwY6bGFmuJGxU8kL7vx3U133&si=-SzpQ3JyooA6aDVR",
+          "slides": "assest/softdesign/software-design-slides.pdf"
+        },
+        {
+          "id": 2,
+          "title": "بلاي ليست تفاضل وتكامل 2",
+          "description": "نتعلم التكامل الثنائي والثلاثي وتطبيقاته في حساب المساحات والحجوم.",
+          "videoUrl": "https://www.youtube.com/embed/videoseries?list=PLqoFY5XpNHx2hcIJUOK9S5McXXncAV-8r"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "مقدمه في الحوسبة",
+      "nameEn": "Intro to Computing",
+      "faculty": "it",
+      "level": 1,
+      "semester": "first",
+      "description": "مقرر برمجة الحاسب يقدم أساسيات البرمجة باستخدام لغة السي. يغطي المتغيرات، الشروط، الحلقات، والدوال.",
+      "rating": 4.8,
+      "ratingsCount": 200,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي ليست مقدمة في البرمجة",
+          "description": "فهم مفاهيم البرمجة وأهمية لغات البرمجة في العصر الرقمي.",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PLxbVBWjVdAEieEfGae9hqwT9TQ90yvehy&si=3tUgwaqofnVYXmld"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "الدوائر الكهربائية",
+      "nameEn": "Engineering Physics",
+      "faculty": "engineering",
+      "level": 1,
+      "semester": "first",
+      "description": "مقرر الدوائر الكهرابئية يغطي الميكانيكا والكهرومغناطيسية والموجات. أسس ضرورية للهندسة.",
+      "rating": 4.3,
+      "ratingsCount": 95,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي ليست د.حازم سكيك",
+          "description": "مقرر الدوائر الكهرابئية يغطي الميكانيكا والكهرومغناطيسية والموجات. أسس ضرورية للهندسة",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PLoiEx8wAxvXJEiPBMIFLCVpaVTHdxJEk8&si=rKxYzd51QTR0ANmK"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "الكترونيات 1 ",
+      "faculty": "it",
+      "level": 1,
+      "semester": "second",
+      "description": "مقدمة الى عالم الدارة والكتونيات ومما تتكون وكيف تعمل",
+      "rating": 4.1,
+      "ratingsCount": 65,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "الكترونيات من كتاب فلويد",
+          "description": "مقدمة الى عالم الالكترونيات من كتاب فلويد.",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PLoiEx8wAxvXLnRUxzKlCG_dQc5f_35Yq6&si=vJcam8YYRsEAUHIH"
+        },
+        {
+          "id": 2,
+          "title": "الكترونيات من كتاب بولستد",
+          "description": "مقدمة الى عالم الالكترونيات من كتاب بولستد.",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PLoiEx8wAxvXK2ipq8ufmBBQ4L37IuKUHL&si=k2dztkE-RL8G4IVi"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "برمجة حاسوب 1 ",
+      "faculty": "engineering",
+      "level": 1,
+      "semester": "second",
+      "description": "مقدمة الى لغة جافا من حيث الاساسيات والمصفوفات والدوال",
+      "rating": 4.1,
+      "ratingsCount": 65,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي ليست لغة الجافا",
+          "description": "الجمل المنطقية والجداول الحقيقة.",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PL9fwy3NUQKwY0C3IW_K2YLh0CsbvHZGxH&si=f7XA_DhUR5Vu2HYm"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "مقدمة في الهندسة",
+      "faculty": "it",
+      "level": 1,
+      "semester": "second",
+      "description": "يهدف هذا المقرر إلى تعريف الطلاب بمبادئ وأخلاق مهنة الهندسة",
+      "rating": 4.1,
+      "ratingsCount": 65,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "كيف بدات الهندسة وماهي اهميتها",
+          "description": "كورس توضيحي لمادة مقدمة في الهندسة",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PLsnvpvHuTUbC-yJkvcf-Stp_kLwfesnn-&si=vQ3QoEalC8LkoYSH"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "مهارات الكتابة التقنية",
+      "faculty": "engineering",
+      "level": 1,
+      "semester": "second",
+      "description": "يركز هذا المقرر على تطوير قدرة الطالب على نقل المعلومات التقنية والمعقدة بشكل واضح ودقيق",
+      "rating": 4.1,
+      "ratingsCount": 65,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي ليست مهارات الكتابة",
+          "description": "الجمل المنطقية والجداول الحقيقة.",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PLxIyz5tZ-CxBzvHBgZ1qwMR9EFFJGYhS7&si=pOpd4xJMYAy9NbPJ"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "مقدمة في هندسة البرمجيات ",
+      "faculty": "engineering",
+      "level": 2,
+      "semester": "first",
+      "description": "مقرر هندسة البرمجيات يغطي منهجيات تطوير البرمجيات، تحليل المتطلبات، والتصميم.",
+      "rating": 4.7,
+      "ratingsCount": 180,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي ليست مقدمة في هندسة البرمجيات",
+          "description": "فهم دورة حياة تطوير البرمجيات وأهميتها.",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PL8Fh9xEtNNzdXl3n8VMFcZb6zzO4JkEXw&si=VZST0pWi56k5VK53"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "التراكيب المنفصلة ",
+      "faculty": "it",
+      "level": 2,
+      "semester": "first",
+      "description": "مقدمة الى معلومات الحاسوب الهارد وير.",
+      "rating": 4.7,
+      "ratingsCount": 180,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي ليست التراكيب المنفصلة",
+          "description": "فهم اساس علم الحاسوب .",
+          "videoUrl": "https://www.youtube.com/embed/https://youtube.com/playlist?list=PLB6X_agqE9hq0xeyZSTNLF0PxA41Dp5pg&si=7-e0Cc4UM8IH7Ex-"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "برمجة حاسوب 2",
+      "faculty": "it",
+      "level": 2,
+      "semester": "first",
+      "description": "اساسيات البرمجة الكائنية",
+      "rating": 4.7,
+      "ratingsCount": 180,
+      "lessons": [
+        {
+          "id": 1,
+          "title": " اساسيات ال OOP",
+          "description": "فهم دورة حياة تطوير البرمجيات وأهميتها.",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PL9fwy3NUQKwafVybwruF4AnSfFc3WEe3S&si=ZXBQfpp1bGLUTG4p"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "تكنولوجيا الشبكة العالمية ",
+      "faculty": "it",
+      "level": 2,
+      "semester": "first",
+      "description": "مقدمة الى عالم الويب فرونت اند.",
+      "rating": 4.7,
+      "ratingsCount": 180,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "html && css",
+          "description": "اساسيات علم الويب وكيف تبنى المواقع الالكترونية.",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PLknwEmKsW8OuN04Odt2sJqt4aAnkp-iYA&si=Bt1LlEZCSCSFdnjo"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "تراكيب بيانات ",
+      "faculty": "engineering",
+      "level": 2,
+      "semester": "first",
+      "description": "كيف يتم تخزين البيانات داخل الذاكرة",
+      "rating": 4.7,
+      "ratingsCount": 180,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي ليست التراكيب البيانات",
+          "description": "التراكيب البيانات.",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp&si=6fjokEhqTgyszXSt"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "الخوارزميات ",
+      "faculty": "engineering",
+      "level": 2,
+      "semester": "second",
+      "description": "تكملة الى مادة تراكيب البيانات",
+      "rating": 4.1,
+      "ratingsCount": 65,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي ليست خوارزميات",
+          "description": "االخوارزميات.",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PLwCMLs3sjOY6KH-8c9F-lMWn-r02hyoV_&si=Nig_28Qdawqvp7st"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "برمجة متقدمة",
+      "faculty": "engineering",
+      "level": 2,
+      "semester": "second",
+      "description": "مقدمة الى لغة بايثون.",
+      "rating": 4.6,
+      "ratingsCount": 150,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي ليست لغة بايثون",
+          "description": "فقدمة الى لغة بايثون .",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PLuXY3ddo_8nzrO74UeZQVZOb5-wIS6krJ&si=l-YutIsmpdhokkZa"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "هندسة متطلبات البرمجيات",
+      "faculty": "engineering",
+      "level": 2,
+      "semester": "second",
+      "description": "كيفية التعامل مع متطلبات العميل ",
+      "rating": 4.6,
+      "ratingsCount": 150,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي ليست هندسة متطلبات البرمجيات",
+          "description": "كيفية التعامل مع متطلبات العميل .",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PLquXYvvn8Qk-vWE-6e8w8YKz-qv7gRFxG&si=4-jlbnB_cxrF3XLB"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "هيكيلية الحاسوب ولغة اسمبلي",
+      "faculty": "engineering",
+      "level": 2,
+      "semester": "second",
+      "description": "مقدمة الى كيفية جاهز الكمبيوتر يعمل والذاكرة الرئيسية",
+      "rating": 4.6,
+      "ratingsCount": 150,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي ليست هيكيلية الحاسوب ولغة اسمبلي",
+          "description": "مقدمة الى كيفية جاهز الكمبيوتر يعمل والذاكرة الرئيسية",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PLKbz59APqascjWDonrdqIHbzEfoQtN_gw&si=j4Q78oznRKMbIrxT"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "نظرية الاتمته",
+      "faculty": "it",
+      "level": 3,
+      "semester": "first",
+      "description": "مقرر الهندسة المدنية يغطي مبادئ البناء، تحليل الهياكل، ومواد البناء.",
+      "rating": 4.2,
+      "ratingsCount": 70,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي ليست نظرية الاتمته",
+          "description": "نظرة عامة على تخصصات الهندسة المدنية.",
+          "videoUrl": "https://www.youtube.com/embed/videoseries?list=PLSZ7xRR5enF3JXY67oVStVoC2obM2wzQQ"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "أنظمة التشغيل",
+      "faculty": "it",
+      "level": 3,
+      "semester": "first",
+      "description": "مادة أنظمة التشغيل تدرس إدارة الحاسوب وموارده لضمان تشغيله بكفاءة.",
+      "rating": 4.2,
+      "ratingsCount": 70,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي ليست انظمة التشغيل",
+          "description": "مادة أنظمة التشغيل تدرس إدارة الحاسوب وموارده لضمان تشغيله بكفاءة",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PLxIvc-MGOs6ib0oK1z9C46DeKd9rRcSMY&si=bE4oSKnZteUel7Xb"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "تصميم برمجيات ",
+      "faculty": "it",
+      "level": 3,
+      "semester": "first",
+      "description": "مادة تصميم البرمجيات تركز على تخطيط وبناء الأنظمة البرمجية بطريقة منظمة وقابلة للتطوير والصيانة..",
+      "rating": 4.2,
+      "ratingsCount": 70,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي ليست تصميم برمجيات",
+          "description": "مادة تصميم البرمجيات تركز على تخطيط وبناء الأنظمة البرمجية بطريقة منظمة وقابلة للتطوير والصيانة.  ",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PLdd_qzItLvSvZLZISZ5xHTxLV80eKlJnj&si=Y0P6OHQmxSx_6pNV"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "شبكات حاسوب",
+      "faculty": "it",
+      "level": 3,
+      "semester": "first",
+      "description": "مادة شبكات الحاسوب تدرس كيفية توصيل الحواسيب وتبادل البيانات بينها بأمان وكفاءة.",
+      "rating": 4.2,
+      "ratingsCount": 70,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي شبكات حاسوب",
+          "description": "مادة شبكات الحاسوب تدرس كيفية توصيل الحواسيب وتبادل البيانات بينها بأمان وكفاءة",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PL8v_bZALWLKE9Lo2BIy8nsdsakbSvQlEo&si=2263V0B7VjE624bX"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "قضايا اجتماعية ومهنهية",
+      "faculty": "it",
+      "level": 3,
+      "semester": "first",
+      "description": "مادة قضايا اجتماعية ومهنية تناقش الجوانب الأخلاقية والمسؤوليات الاجتماعية والمهنية المرتبطة بتخصص الحاسوب وسوق العمل..",
+      "rating": 4.2,
+      "ratingsCount": 70,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "بلاي قضايا اجتماعية ومهنية",
+          "description": "مادة قضايا اجتماعية ومهنية تناقش الجوانب الأخلاقية والمسؤوليات الاجتماعية والمهنية المرتبطة بتخصص الحاسوب وسوق العمل.",
+          "videoUrl": "https://www.youtube.com/embed/playlist?list=PLAbhmK0wiSVGaXK8VRZIJenlDpdNHn-F5&si=ZeqC5wZG7ihkXj_C"
+        }
+      ]
+    }
+  ]
+}
