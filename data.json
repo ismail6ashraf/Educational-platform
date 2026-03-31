@@ -393,6 +393,132 @@
           "videoUrl": "https://www.youtube.com/embed/playlist?list=PLAbhmK0wiSVGaXK8VRZIJenlDpdNHn-F5&si=ZeqC5wZG7ihkXj_C"
         }
       ]
+    },
+    {
+      "id": 22,
+      "name": "تطوير تطبيقات الشبكة العالمية",
+      "faculty": "engineering",
+      "level": 3,
+      "semester": "second",
+      "description": "تطوير الويب بلغة ال php ",
+      "rating": 4.2,
+      "ratingsCount": 70,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Introduction and Syntax Overview",
+          "description": " Chapter 1, Part-1Web Applications Development.Introduction and Syntax Overview ",
+          "videoUrl": "https://www.youtube.com/embed/FrQSaDrxCco"
+        },
+        {
+          "id": 2,
+          "title": "Introduction and Syntax Overview",
+          "description": " Chapter 1, Part-2 Web Applications Development.Introduction and Syntax Overview ",
+          "videoUrl": "https://www.youtube.com/embed/eAL49ezvfIs"
+        },
+        {
+          "id": 3,
+          "title": "Variable Types & Constants",
+          "description": " Chapter 2, Part-1 Web Applications Development. Variable Types & Constants ",
+          "videoUrl": "https://www.youtube.com/embed/2VOpo0QwDP0"
+        },
+        {
+          "id": 4,
+          "title": "Variable Types & Constants",
+          "description": " Chapter 2, Part-2 Web Applications Development. Variable Types & Constants ",
+          "videoUrl": "https://www.youtube.com/embed/CLyKcSO5edM"
+        },
+        {
+          "id": 5,
+          "title": "Operator Types, Decision Making, Loop Types and Arrays",
+          "description": " Chapter 3, Part-1 Web Applications Development. Operator Types, Decision Making, Loop Types and Arrays ",
+          "videoUrl": "https://www.youtube.com/embed/MlZJiWc4R3g"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "نظم قواعد البيانات",
+      "faculty": "it",
+      "level": 3,
+      "semester": "second",
+      "description": "Database",
+      "rating": 4.2,
+      "ratingsCount": 70,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Introduction about Database",
+          "description": " lecture 1 ",
+          "videoUrl": "https://www.youtube.com/embed/ehgyD8vFBe0"
+        },
+        {
+          "id": 2,
+          "title": "chapter 1 - part 1 ",
+          "description": " lecture 2 ",
+          "videoUrl": "https://www.youtube.com/embed/ssygqz0tBtI"
+        },
+        {
+          "id": 3,
+          "title": "chapter 1 - part 2 ",
+          "description": " lecture 3",
+          "videoUrl": "https://www.youtube.com/embed/9HgCLc8NFtg"
+        },
+        {
+          "id": 4,
+          "title": "chapter 1 - part 3 ",
+          "description": " lecture 4 ",
+          "videoUrl": "https://www.youtube.com/embed/oQbcF9Ry2VY"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "جرافيك الحاسوب",
+      "faculty": "it",
+      "level": 3,
+      "semester": "second",
+      "description": "جرافيك الحاسوب",
+      "rating": 4.2,
+      "ratingsCount": 70,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "chapter 1",
+          "description": " lecture 1 ",
+          "videoUrl": "https://www.youtube.com/embed/bonFRE05RN0"
+        },
+        {
+          "id": 2,
+          "title": "chapter 1",
+          "description": " lecture 2 ",
+          "videoUrl": "https://www.youtube.com/embed/zecYUsCvg0g"
+        },
+        {
+          "id": 3,
+          "title": "chapter 1",
+          "description": " lecture 3 ",
+          "videoUrl": "https://www.youtube.com/embed/dW_8Nb-m8ig"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "جبر خطي",
+      "faculty": "it",
+      "level": 3,
+      "semester": "second",
+      "description": "المصفوفات والمحددات",
+      "rating": 4.2,
+      "ratingsCount": 70,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "chapter 1",
+          "description": " lecture 1 ",
+          "videoUrl": "https://www.youtube.com/embed/bonFRE05RN0"
+        }
+      ]
     }
   ]
 }
