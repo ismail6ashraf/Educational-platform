@@ -16,7 +16,7 @@
           "title": "بلاي ليست تفاضل وتكامل 1",
           "description": "في هذه الدرس نتناول مفاهيم التفاضل المتقدم بما في ذلك المشتقات الجزئية والتطبيقات الهندسية.",
           "videoUrl": "https://www.youtube.com/embed/playlist?list=PL9fwy3NUQKwY6bGFmuJGxU8kL7vx3U133&si=-SzpQ3JyooA6aDVR",
-          "slides": "assest/softdesign/software-design-slides.pdf"
+          "slides":   "assets/softdesign/software-design-slides.pdf"
         },
         {
           "id": 2,
@@ -469,6 +469,36 @@
           "title": "chapter 1 - part 3 ",
           "description": " lecture 4 ",
           "videoUrl": "https://www.youtube.com/embed/oQbcF9Ry2VY"
+        },
+        {
+          "id": 5,
+          "title": "chapter 1 - part 4 ",
+          "description": " lecture 5 ",
+          "videoUrl": "https://www.youtube.com/embed/eNJ20KFL62Y"
+        },
+        {
+          "id": 6,
+          "title": "chapter 1 - part 5 ",
+          "description": " lecture 6 ",
+          "videoUrl": "https://www.youtube.com/embed/vGY3F2hPLrg"
+        },
+        {
+          "id": 7,
+          "title": "chapter 1 - part 6 ",
+          "description": " lecture 7 ",
+          "videoUrl": "https://www.youtube.com/embed/veCth0STD6c"
+        },
+        {
+          "id": 8,
+          "title": "Chapter 2 Relational Algebra Part 1 ",
+          "description": " lecture 8 ",
+          "videoUrl": "https://www.youtube.com/embed/Ww1dAC8NWPE"
+        },
+        {
+          "id": 9,
+          "title": "Chapter 2 Relational Algebra Part 2 ",
+          "description": " lecture 9 ",
+          "videoUrl": "https://www.youtube.com/embed/WGUslg4WQwA"
         }
       ]
     },
@@ -484,21 +514,45 @@
       "lessons": [
         {
           "id": 1,
-          "title": "chapter 1",
+          "title": "Graphics 1",
           "description": " lecture 1 ",
           "videoUrl": "https://www.youtube.com/embed/bonFRE05RN0"
         },
         {
           "id": 2,
-          "title": "chapter 1",
+          "title": "Graphics 2",
           "description": " lecture 2 ",
           "videoUrl": "https://www.youtube.com/embed/zecYUsCvg0g"
         },
         {
           "id": 3,
-          "title": "chapter 1",
+          "title": "Graphics 3",
           "description": " lecture 3 ",
           "videoUrl": "https://www.youtube.com/embed/dW_8Nb-m8ig"
+        },
+        {
+          "id": 4,
+          "title": "Graphics 4",
+          "description": " lecture 4 ",
+          "videoUrl": "https://www.youtube.com/embed/7OvaJNfufsA"
+        },
+        {
+          "id": 5,
+          "title": "Graphics 5",
+          "description": " lecture 5 ",
+          "videoUrl": "https://www.youtube.com/embed/5GbrDP6cNdo"
+        },
+        {
+          "id": 6,
+          "title": "Graphics 6",
+          "description": " lecture 6 ",
+          "videoUrl": "https://www.youtube.com/embed/MeR5dnvXQnA"
+        },
+        {
+          "id": 7,
+          "title": "Graphics 7",
+          "description": " lecture 7 ",
+          "videoUrl": "https://www.youtube.com/embed/Kbo-H5hyqKI"
         }
       ]
     },
@@ -517,6 +571,66 @@
           "title": "chapter 1",
           "description": " lecture 1 ",
           "videoUrl": "https://www.youtube.com/embed/bonFRE05RN0"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "اختبار البرمجيات",
+      "faculty": "it",
+      "level": 4,
+      "semester": "second",
+      "description": "تتناول هذه المادة مبادئ وأساليب اختبار البرمجيات لضمان جودة الأنظمة البرمجية وموثوقيتها قبل تسليمها للمستخدم النهائي. يركز المساق على كيفية اكتشاف الأخطاء (Bugs) في البرمجيات وتقليلها من خلال استراتيجيات اختبار فعّالة.",
+      "rating": 4.2,
+      "ratingsCount": 70,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "lectuer 1",
+          "description": " Testing Introductory Lecture 1 ",
+          "videoUrl": "https://www.youtube.com/embed/fB0OLQZbgc4"
+        },
+        {
+          "id": 2,
+          "title": "lectuer 2",
+          "description": " Testing Introductory Lecture 2 ",
+          "videoUrl": "https://www.youtube.com/embed/nbtNNP5gwEI"
+        },
+        {
+          "id": 3,
+          "title": "lectuer 3",
+          "description": " Testing Introductory Lecture 3 ",
+          "videoUrl": "https://www.youtube.com/embed/2OJUrDLIVME"
+        },
+        {
+          "id": 4,
+          "title": "lectuer 4",
+          "description": " Software Testing Chapter 1 Part1 ",
+          "videoUrl": "https://www.youtube.com/embed/J5pWUlqPfsI"
+        },
+        {
+          "id":5,
+          "title": "lectuer 5",
+          "description": " Software Testing Chapter 1 Part2 ",
+          "videoUrl": "https://www.youtube.com/embed/hrDGpf2BVsw"
+        },
+        {
+          "id":6,
+          "title": "lectuer 6",
+          "description": " Software Testing Chapter 2 ",
+          "videoUrl": "https://www.youtube.com/embed/xJiYRbKKuEY"
+        },
+        {
+          "id":7,
+          "title": "lectuer 7",
+          "description": " Software Testing - Chapter 4 - Part1 ",
+          "videoUrl": "https://www.youtube.com/embed/xgGczrPegVU"
+        },
+        {
+          "id":8,
+          "title": "lectuer 8",
+          "description": " Software Testing - Chapter 4 - Part2 ",
+          "videoUrl": "https://www.youtube.com/embed/I8F6KMpU1FI"
         }
       ]
     }
