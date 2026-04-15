@@ -568,9 +568,63 @@
       "lessons": [
         {
           "id": 1,
-          "title": "chapter 1",
+          "title": "Linear Algebra 1",
           "description": " lecture 1 ",
-          "videoUrl": "https://www.youtube.com/embed/bonFRE05RN0"
+          "videoUrl": "https://www.youtube.com/embed/u599Xm-tcx4"
+        },
+        {
+          "id": 2,
+          "title": "Linear Algebra 2",
+          "description": " lecture 2 ", 
+          "videoUrl": "https://www.youtube.com/embed/5OQaTIrZNsU"
+        },
+        {
+          "id": 3,
+          "title": "Linear Algebra 3",
+          "description": " lecture 3 ",  
+          "videoUrl": "https://www.youtube.com/embed/7I_9wiOjwpk"
+        },
+        {
+          "id": 4,
+          "title": "Linear Algebra 4",
+          "description": " lecture 4 ",  
+          "videoUrl": "https://www.youtube.com/embed/yG9UAurHrsY"
+        },
+        {
+          "id": 5,
+          "title": "Linear Algebra 5",
+          "description": " lecture 5 ",  
+          "videoUrl": "https://www.youtube.com/embed/L_g1SaXARLo"
+        },
+        {
+          "id": 6,
+          "title": "Linear Algebra 6",
+          "description": " lecture 6 ",  
+          "videoUrl": "https://www.youtube.com/embed/BOiqVGUA2X0"
+        },
+        {
+          "id": 7,
+          "title": "Linear Algebra 7",
+          "description": " lecture 7 ",  
+          "videoUrl": "https://www.youtube.com/embed/Ei50yawDYZA"
+        },
+        {
+          "id": 8,
+          "title": "Linear Algebra 8",
+          "description": " lecture 8 ",  
+          "videoUrl": "https://www.youtube.com/embed/HSdI-tcVkwM"
+        },
+        {
+          "id": 9,
+          "title": "Linear Algebra 9",
+          "description": " lecture 9 ",  
+          "videoUrl": "https://www.youtube.com/embed/w1TaPHt4Ae0"
+        },
+        {
+          "id": 10,
+          "title": "Linear Algebra 10",
+          "description": " lecture 10 ",  
+          "videoUrl": "https://www.youtube.com/embed/L_-uOGZQiu0"
         }
       ]
     },
@@ -631,6 +685,24 @@
           "title": "lectuer 8",
           "description": " Software Testing - Chapter 4 - Part2 ",
           "videoUrl": "https://www.youtube.com/embed/I8F6KMpU1FI"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "تطوير ونمذجة البرمجيات",
+      "faculty": "it",
+      "level": 4,
+      "semester": "second",
+      "description": "",
+      "rating": 4.2,
+      "ratingsCount": 70,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "lectuer 1",
+          "description": " Testing Introductory Lecture 1 ",
+          "videoUrl": "https://www.youtube.com/embed/fB0OLQZbgc4"
         }
       ]
     }
